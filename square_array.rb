@@ -5,5 +5,5 @@ def square_array(numbers)
   numbers.each do |element| 
     element*element
     end
-   return sq_numbers << [element]
+   return sq_numbers << numbers
 end
